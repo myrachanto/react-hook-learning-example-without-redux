@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:gray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  background-color: green;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: aliceblue;
+}
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: chocolate;
+}
+.navbar h1{
+  margin: 10px 0;
+}
+.booklist{
+  padding: 0;
+  list-style-type: none;
+}
+.booklist li {
+  list-style-type: none;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+.booklist li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.booklist .title{
+  font-weight: bold;
+  color: antiquewhite;
+  font-size: 1.2em;
+}
+.booklist .author{
+  font-size: 0.9em;
+  color: azure;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
+}
+form{
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background-color: beige;
+  color: black;
+  border: 0;
+}
+input[type+'submit']{
+  margin: 10px auto;
+  background: blanchedalmond;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
 }
